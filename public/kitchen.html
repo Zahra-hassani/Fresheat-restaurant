@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../src/output.css">
 </head>
 <body>
-    <div class="relative">
+    <div class="relative bg-gray-200">
         <nav class="h-20 w-full z-50 fixed top-0 left-0 flex justify-between items-center gap-3 px-4 bg-gray-100/50 shadow-white shadow-2xs">
             <img src="./img/logo.svg" alt="logo" class="h-full w-40" >
             <ul class="flex justify-between items-center gap-3">
@@ -19,6 +19,8 @@
                 <li class="text-black font-bold text-xl font-sans"><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
+        <!-- Navbar end -->
+        <!-- Hero section start -->
         <div class="h-screen w-full p-5 flex justify-center flex-col items-start gap-4 bg-[url(../public/img/hero.jpg)] bg-no-repeat bg-cover">
             <div id="text-1" class="flex flex-col items-start gap-4">
             <h1 class="font-bold font-sans text-6xl text-white animate-fade-up uppercase">Experience new tastes</h1>
@@ -26,6 +28,81 @@
             <button class="bg-orange-600 text-white font-bold px-6 py-1 hover:text-orange-600 hover:bg-white transition-colors duration-500">Explore</button>
             </div>
         </div>
+        <!-- Hero end -->
+        <!-- About Us start -->
+         <div class="h-fit w-[80%] mx-auto bg-white shadow flex flex-col items-center gap-4 my-4 p-4">
+            <h1 class="font-bold text-orange-600 uppercase relative after:content-[''] after:h-px md:after:w-30 after:w-20 after:bg-orange-600 after:absolute after:top-3 after:left-30 text-center before:content-[''] before:h-px md:before:w-30 before:w-20 before:bg-orange-600 before:absolute before:top-3 before:right-30">About Us</h1>
+            <h1 class="font-bold text-2xl md:text-3xl lg:text-4xl text-center">Variety Of Flavours From American Cuisine</h1>
+            <p class="text-gray-300">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil obcaecati beatae voluptate numquam quibusdam cumque ducimus, laboriosam officia recusandae doloribus ex quis dolorum deserunt veritatis nobis placeat quo cupiditate expedita!</p>
+            <button class="bg-red-600 text-white shadow uppercase px-6 py-1 hover:bg-white hover:text-red-400 transition-colors duration-300">Order Now</button>
+         </div>
+         <!-- About Us end -->
+         <!-- Popular Food start -->
+          <div class="h-fit w-full flex flex-col items-center gap-4 my-3 p-4">
+            <h1 class="font-bold text-orange-600 uppercase relative after:content-[''] after:h-px md:after:w-30 after:w-20 after:bg-orange-600 after:absolute after:top-3 after:left-30 text-center before:content-[''] before:h-px md:before:w-30 before:w-20 before:bg-orange-600 before:absolute before:top-3 before:right-30">best food</h1>
+            <h1 class="font-bold text-2xl md:text-3xl lg:text-4xl text-center">Popular Food Items</h1>
+            <div class="w-full grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-3 p-4">
+                <div class="h-fit w-fit z-40 flex flex-col justify-between items-center gap-3 p-5 shadow rounded-lg bg-linear-to-t from-gray-100 to-transparent relative group ">
+                    <img src="./img/item1_1.png" alt="pizza" class="rounded-full p-2 border-dash border-red-400">
+                    <h1 class="font-bold text-center group-hover:text-white">Chicken Pizza</h1>
+                    <p class="text-gray-300">The Registration Fee</p>
+                    <p class="font-bold text-red-600 group-hover:text-white">$ 26.99</p>
+                    <div class="w-full bg-red-600 h-0 group-hover:h-full rounded-lg -z-10 transition-all duration-300 absolute top-0 left-0"></div>
+            </div>
+                <div class="h-fit w-fit z-40 flex flex-col justify-between items-center gap-3 p-5 shadow rounded-lg bg-linear-to-t from-gray-100 to-transparent relative transition-all duration-300 group ">
+                    <img src="./img/item1_2.png" alt="pizza" class="rounded-full p-2 border-dash border-red-400">
+                    <h1 class="font-bold text-center group-hover:text-white">Egg And Cocumber</h1>
+                    <p class="text-gray-300">The Registration Fee</p>
+                    <p class="font-bold text-red-600 group-hover:text-white">$ 40.99</p>
+                    <div class="w-full bg-red-600 h-0 group-hover:h-full rounded-lg -z-10 transition-all duration-300 absolute top-0 left-0"></div>
+            </div>
+                <div class="h-fit w-fit z-40 flex flex-col justify-between items-center gap-3 p-5 shadow rounded-lg bg-linear-to-t from-gray-100 to-transparent transition-all duration-300 relative group ">
+                    <img src="./img/item1_3 (1).png" alt="pizza" class="rounded-full p-2 border-dash border-red-400">
+                    <h1 class="font-bold text-center group-hover:text-white">Chicken Fried Rice</h1>
+                    <p class="text-gray-300">The Registration Fee</p>
+                    <p class="font-bold text-red-600 group-hover:text-white">$ 100.99</p>
+                    <div class="w-full bg-red-600 h-0 group-hover:h-full rounded-lg -z-10 transition-all duration-300 absolute top-0 left-0"></div>
+            </div>
+          </div>
+          <!-- Popular food end -->
+          <!-- expert chefe start -->
+           <div class="lg:w-[80%] h-fit mx-auto w-full flex flex-col items-center gap-4 my-4 p-4">
+            <h1 class="font-bold text-orange-600 uppercase relative after:content-[''] after:h-px md:after:w-30 after:w-20 after:bg-orange-600 after:absolute after:top-3 after:left-30 text-center before:content-[''] before:h-px md:before:w-30 before:w-20 before:bg-orange-600 before:absolute before:top-3 before:right-30">our chefe</h1>
+            <h1 class="font-bold text-2xl md:text-3xl lg:text-4xl text-center">Meet Our Expert Chefe</h1>
+            <div class="h-fit translate-y-[30%] w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 my-4 p-4">
+                <div class="w-54 h-59 relative flex justify-center flex-col items-end gap-0 p-4">
+                <div class="absolute top-0 left-[50%] -translate-[50%] rounded-3xl rounded-br-none h-44 w-44">
+                    <img src="./img/chefeThumb1_1.png" alt="chefe1" class="h-full w-full">
+                </div>
+                <div class="w-full h-34 flex justify-end flex-col items-center gap-2 rounded-t-3xl bg-white shadow p-4">
+                    <h1 class="font-bold text-center">Ralph Edwards</h1>
+                    <p class="text-gray-300 text-center">Chef Lead</p>
+                </div>
+                </div>
+                <div class="w-54 h-59 relative flex justify-center flex-col items-end gap-0 p-4">
+                <div class="absolute top-0 left-[50%] -translate-[50%] rounded-3xl rounded-br-none h-44 w-44">
+                    <img src="./img/chefeThumb1_2.png" alt="chefe1" class="h-full w-full">
+                </div>
+                <div class="w-full h-34 flex justify-end flex-col items-center gap-2 rounded-t-3xl bg-white shadow p-4">
+                    <h1 class="font-bold text-center">Leslie Alexander</h1>
+                    <p class="text-gray-300 text-center">Chef Assistant</p>
+                </div>
+                </div>
+                <div class="w-54 h-59 relative flex justify-center flex-col items-end gap-0 p-4">
+                <div class="absolute top-0 left-[50%] -translate-[50%] rounded-3xl rounded-br-none h-44 w-44">
+                    <img src="./img/chefeThumb1_3.png" alt="chefe1" class="h-full w-full">
+                </div>
+                <div class="w-full h-34 flex justify-end flex-col items-center gap-2 rounded-t-3xl bg-white shadow p-4">
+                    <h1 class="font-bold text-center">Ronald Richards</h1>
+                    <p class="text-gray-300 text-center">Chef Assistant</p>
+                </div>
+                </div>
+            </div>
+           </div>
+           <!-- expert chefe end -->
+           <!-- Popular Dishes Start -->
+            <div class="w-full"></div>
+            <!-- Popular Dishes end -->
     </div>
 </body>
 </html>
